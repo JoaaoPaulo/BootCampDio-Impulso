@@ -1,0 +1,7 @@
+Registro 
+
+Enquantro arrays nos permitem armazenar varios dados do mesmo tipo, um registro é composto por campos que especificam cada umas das informações.
+
+Toda estrutura de registro tem um nome(ex: livro), e seus campos podem ser acessados por meio do uso do operador(.). Por Exemplo, para acessar o preço de um livro, podiamos utilizar a seguinte declaração.
+
+Livro.preço

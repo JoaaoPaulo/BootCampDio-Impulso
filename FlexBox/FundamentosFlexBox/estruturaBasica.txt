@@ -1,0 +1,67 @@
+##0 - Display flex
+
+Torna a tag um elemento do tipo flex container, e assim automaticamente todos os filhos direto desta tag, torna-se em flex items.
+
+
+##1 - Flex-Direction
+
+É a priopiedade que estabelece o eixo principal do conatiner, definindo assim a direção que os flex items são colocados no flex container.
+
+* Os eixos
+
+- Row (Padrão): á direção do texto, esquerda pra direita.
+
+- row reverse: sentido oposto do row
+
+- collumn: ordenção de cima para baixo, em coluna unica.
+
+- collumn reverse: sentido oposto do collumn
+
+
+##2 - Flex Wrap
+
+É a priopiedade que define se os itens devem ou não quebrar a linha.
+
+Por padrao eles não quebram linhas, isso faz com que os itens flex itens sejam compactados além dos limites.
+
+- nowrap: É o padrão, não permite qeubra de linha.
+
+- wrap: Permite a quebra de linga assim que um dos flex itens não puder ser compactado.
+
+- wrapReverse: Permite a quebra de linga assim que um dos flex itens não puder ser compactado. porem na direção contraria da linha, acima.
+
+##3 - Flex flow
+
+É um atalho para as priopiedades flex-direction e flex-wrap.
+
+Porém seu uso não é tãio comum, visto que. qunado mudamos o flex-direction para column, mantemos o padrão do flex-wrap que é nowrap.
+
+##4 - Justify Content
+
+Essa propiedade vai se encarregar de alinhar os intens dentro do container de acordo com a direção e tartar da distribuição de espaçamentoi entre eles.
+
+obs - Caso seus itens esteja ocupando 100% de todo container ele nao se aplica
+
+- flex start: inicio do container
+- flex end: final do container
+- center: ao centro do container
+- space-between: cria um espaçamento igual entre os elementos
+- space-around: os espaçamento do meio sao duas vezes maiores que o inicial e final.
+
+##aling-items
+
+Trata do alinhemto dos flex itens de acordo com o eixo do container.
+
+O alinhamento é diferente para quando os itens estão em colunas ou linhas.
+
+Permite o alinhamento central do eixo vertical.
+
+-> Tipos de alinhamento
+
+- flex start: inicio do container
+- flex end: final do container
+- center: ao centro do container
+- space-between: cria um espaçamento igual entre os elementos
+- space-around: os espaçamento do meio sao duas vezes maiores que o inicial e final.
+- stretch: padrao, e os flex intens crecam igualmente.
+- baseline - alinahmento de acordo com alinha base da tipografia dos itens.

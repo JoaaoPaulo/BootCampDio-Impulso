@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Flex Wrap</title>
+
+    <style>
+        .flex-container {
+            display: flex;
+            height: 150px;
+            border: 2px solid black;
+            max-width: 410px;
+        }
+
+        .item {
+            min-width: 100px;
+            height: 50%;
+            font-size: 24px;
+            text-align: center;
+            line-height: 50px;
+        }
+
+        .nowrap {
+            flex-wrap: nowrap;
+        }
+
+        .wrap {
+            flex-wrap: wrap;
+        }
+
+        .wrap-reverse {
+            flex-wrap: wrap-reverse;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .orange {
+            background-color: orange;
+        }
+
+    </style>
+</head>
+<body>
+
+<h1> No Wrap </h1>
+
+<!--nowrap: É o padrão, não permite qeubra de linha.-->
+<div class="flex-container nowrap">
+    <div class="item orange">1</div>
+    <div class="item green">2</div>
+    <div class="item blue">3</div>
+    <div class="item orange">4</div>
+</div>
+
+<h1>Wrap</h1>
+<!--wrap: Permite a quebra de linga assim que um dos flex itens não puder ser compactado.-->
+<div class="flex-container wrap">
+    <div class="item orange">1</div>
+    <div class="item green">2</div>
+    <div class="item blue">3</div>
+    <div class="item orange">4</div>
+</div>
+
+<h1>Wrap-Reverse</h1>
+
+<!---wrapReverse: Permite a quebra de linga assim que um dos flex itens não puder ser compactado. porem na direção contraria da linha, acima.-->
+<div class="flex-container wrap-reverse">
+    <div class="item orange">1</div>
+    <div class="item green">2</div>
+    <div class="item blue">3</div>
+    <div class="item orange">4</div>
+</div>
+    
+</body>
+</html>

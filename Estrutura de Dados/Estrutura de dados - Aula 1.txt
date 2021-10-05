@@ -1,0 +1,19 @@
+Estrutura de dados
+
+
+Estrutura de dados é uma estrutura organizada de dados de memoria de um compurtador ou em qualquer dispotivo  de armazenamento, de forma que os dados possam ser utilizados de forma correta.
+
+Essas estruturas encontram muitas aplicações no dev de sistemas, sendo que algumas são altamente especializadas e utilizadas em tarefas especificas.
+
+Usando as estruturas adequadas atraves de algoritmos, podemos trabalhar co uma grande quantidade de dados, como aplicações em banco de dados ou serviços de busca.
+
+Principais Estruturas de Dados
+
+Vetores e Matrizes
+Registro
+Lista
+Pilha
+Fila
+Arvore
+Tabela hash
+Grafos

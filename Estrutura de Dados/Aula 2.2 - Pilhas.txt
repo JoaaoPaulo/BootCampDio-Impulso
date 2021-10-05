@@ -1,0 +1,9 @@
+Tipos de pilhas 
+
+LIFO OU UEPS
+FIFO OU PEPS
+
+
+Lifo - ultimo que entra primeuiro que sai.
+
+fifo - primeiro que entra primeiro qeu sai
